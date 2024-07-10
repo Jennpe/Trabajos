@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia;
+}
+
+body{
+    background: url(https://wallpapers-clan.com/wp-content/uploads/2024/04/spider-man-full-moon-fog-dark-gif-preview-desktop-wallpaper.gif);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    position: relative;
+    top: 220px;
+    padding: 60px ;
+}
+
+input,label{
+   margin: 20px 20px;
+   position: relative;
+   top: 70px;
+   left: 50px;
+}
+text{
+    background-color: black;
+}
+label{
+    color: rgb(106, 171, 233);
+}
+
+#acto{
+    position: relative;
+    left: 74px;
+    bottom: 39px;
+    color: rgb(0, 0, 0);
+    border-radius: 9px;
+}
+
+#Cont{
+    color: rgb(13, 94, 169);
+}
+
+input{
+    height: 30px;
+    border-bottom: 5px solid  rgb(106, 171, 233);
+    border-radius: 9px;
+}
+
+.titulo{
+    position: relative;
+    right: 226px;
+    bottom: 0px;
+    font-size: 30px;
+}
+.Form{
+    background: rgba(12, 10, 10, 0.459);
+    width: 310px;
+    height: 510px;
+    border-radius: 9px;
+}
+
+#txtsubmit{
+    width: 250px;
+    height: 40px;
+    top: 50px;
+    left: 20px;
+    background-color: rgb(106, 171, 233);
+
+}

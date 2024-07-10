@@ -1,0 +1,97 @@
+body {
+    padding: 25px;
+    background: rgb(226, 224, 224);
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0; 
+}
+.container{
+    background-color: rgb(78, 148, 171);
+    padding: 5px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;    
+}
+.box {
+    border: 3px solid rgb(17, 192, 105);
+    font-size: 30px;
+    text-align: center;
+    margin: 15px;
+    width: 300px;
+}
+body{
+    padding: 25px;
+    background: rgb(226, 224, 224);
+    
+}
+
+.box {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    flex: 1 0 200px;
+    text-align: center;
+    border-radius: 5px;
+}
+section {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content:center ;
+}
+article{
+    background: red;
+    width: 300px;
+    height: 80px;
+    padding: 5px;
+    margin: 20px;
+}
+.derecha{
+    width: 300px;
+    height: 100px;
+    background: red;
+    border-radius: 0px 0px 70px 0px;
+}
+
+.arriba{
+    width: 300px;
+    height: 80px;
+    background: rgb(106, 255, 0);
+    border-radius: 40px 0px 0px 0px;
+}
+
+.izquierda{
+    width: 300px;
+    height: 80px;
+    background: rgb(0, 255, 204);
+    border-radius: 40px 0px 0px 0px;
+}
+
+.ovalado{
+    width: 300px;
+    height: 80px;
+    background: blue;
+    border-radius: 30px 70px 30px 70px;
+}
+
+.todas{
+    width: 300px;
+    height: 80px;
+    background: rgb(236, 27, 225);
+    border-radius: 20px 20px 20px 20px;
+}
+
+.circulo{
+    width: 300px;
+    height: 80px;
+    background: blue;
+    border-radius: 50%;
+}

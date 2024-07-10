@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+body{
+    background: url(/img/Spi.gif);
+    background-attachment: fixed;
+    background-size: cover;
+}
+input,label{
+    margin: 5px 20px;
+    position: relative;
+    top: 9px;
+    left: 30px;
+    width: 200px;
+    border-radius: 8px;
+   
+}
+input{
+    height: 30px;
+}
+
+#txtMensaje{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 10px;
+    left: 30px;
+    border-radius: 8px;
+}
+
+
+#txtsubmit{ 
+    width: 100px;
+    height: 30px;
+    color: rgb(240, 241, 244);
+    background-color:rgb(60, 103, 223);
+    border-color: rgb(60, 103, 223);
+    border-radius: 8px;
+ 
+}
+
+.Form{
+    position: relative;
+    bottom: 10px;
+    top: 60px;
+    background: rgba(12, 10, 10, 0.459);
+    width: 400px;
+    height: 480px;
+    border-color: rgb(60, 103, 223);
+    border-radius: 8px;
+}
+
+section{
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: center;
+}
+
+#titulo{
+    color: rgb(20, 144, 245);
+    position: relative;
+    left: 70px;
+    bottom: 10px;
+    align-items: center;
+    top: 10px;
+}
+
