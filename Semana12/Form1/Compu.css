@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    background: url(img/Compu.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+h2{
+    text-align: center;
+    font-family: Gill Sans;
+    font-size: 2rem;
+    color: rgb(2, 255, 150);
+}
+
+section{
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    color: rgb(2, 255, 150);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+input{
+    margin: 20px;
+    color: blue ;
+    border-radius: 4px;
+    
+}   
+
+label{
+    font-size: 1rem;
+    font-family: Gill Sans;
+    color: rgb(2, 255, 150);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+} 
+img{
+    width: 40%;
+    border-radius: 30px;
+    border: 2px solid rgb(51, 255, 0);
+    margin: 50px;
+}
