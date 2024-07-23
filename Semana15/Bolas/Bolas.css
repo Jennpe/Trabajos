@@ -1,0 +1,67 @@
+body, html {
+    height: 40%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  h2 {
+    text-align: center;
+    margin-top: 290px; 
+    margin-bottom: 20px;
+    position: relative; 
+}
+    
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    margin: 40px; 
+    gap: 20px;
+  }
+  
+  .ball-1 {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    animation: Movimientoderecha 2s infinite alternate; /*derecha*/
+}
+.ball-2 {
+  display: flex;
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  animation: Movimientoizqui 2s infinite alternate; /* izquierda*/
+}
+
+/* Movimiento Hacia la derecha*/
+@keyframes Movimientoderecha {
+  0% {
+    transform: translateX(0); /* Posición inicial */
+}
+25% {
+    transform: translateX(40px); /* Movimiento hacia la derecha */
+}
+50% {
+    transform: translateX(0); /* Regreso a la posición inicial */
+}
+}
+
+/* Movimiento Hacia la izquierda*/
+@keyframes Movimientoizqui {
+  0% {
+    transform: translateX(0); /* Posición inicial */
+}
+25% {
+  transform: translateX(-40px); /* Movimiento hacia la izquierda */
+}
+50% {
+    transform: translateX(0); /* Regreso a la posición inicial */
+}
+}
+
