@@ -1,0 +1,35 @@
+body, html {
+    height: 0px; /* Cambiado de 0px a 100% */
+    margin: 0px;
+}
+
+.Titulo {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    display: flexbox;
+    align-items:center;
+    justify-content: center;
+   
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px; 
+    padding-top: 20px; /* Agrega un poco de espacio encima del contenedor */
+    width: fit-content; /* Ajusta el ancho del contenedor al contenido */
+    margin: auto; /* Centra el contenedor en el cuerpo de la página */
+    padding: 0; /* Elimina el relleno para que el borde se pegue a las figuras */
+}
+
+.shape, .Rombo {
+    margin: 0; 
+}
+@media (max-width: 600px) {
+    .container svg {
+        width: 100px; /* Reduce el tamaño de los SVGs */
+        height: 100px;
+    }
+}
